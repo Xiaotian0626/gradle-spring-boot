@@ -24,7 +24,7 @@ pipeline {
              steps {
                 echo "delivery"
                 sh '''
-                java -jar build/lib/gradle-project-0.0.1-SNAPSHOT.jar
+                java -jar build/lib/gradle-spring-boot-0.0.1-SNAPSHOT.jar
                  '''
             }
         }
