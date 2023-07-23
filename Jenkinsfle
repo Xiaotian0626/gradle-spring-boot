@@ -25,6 +25,7 @@ pipeline {
                 echo "delivery"
                 sh '''
                 ls -ltr ./build/libs
+                java -jar gradle-spring-boot-0.0.1-SNAPSHOT.jar
                  '''
             }
         }
