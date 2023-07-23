@@ -24,7 +24,7 @@ pipeline {
              steps {
                 echo "delivery"
                 sh '''
-                ls -ltr
+                ls -ltr ./build/libs
                  '''
             }
         }
